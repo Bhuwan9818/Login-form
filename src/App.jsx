@@ -19,9 +19,9 @@ function App() {
     <Router basename="/Login-form/">
       <nav>
         <Link to='/'>Home</Link>
-        <Link to='signup'>signup</Link>
-        <Link to='login'>login</Link>
-        <Link to='profile'>profile</Link>
+        <Link to='/signup'>signup</Link>
+        <Link to='/login'>login</Link>
+        <Link to='/profile'>profile</Link>
       </nav>
 
       <Routes>
