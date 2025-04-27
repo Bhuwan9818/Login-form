@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import {
   BrowserRouter as Router,
   Route,
@@ -16,6 +17,13 @@ function App() {
 
   return (
     <Router basename="/Login-form/">
+      <nav>
+        <Link to='/'>Home</Link>
+        <Link to='signup'>signup</Link>
+        <Link to='login'>login</Link>
+        <Link to='profile'>profile</Link>
+      </nav>
+
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/signup" element={<Signup />} />
