@@ -15,7 +15,7 @@ const HomePage = () => {
               <Link to='/signup'>Create account</Link>  
             </div>
             <div className="flex gap-2 justify-center font-[500] items-center flex-col bg-[#CEBAFB] p-2 rounded-md w-full">
-              <a href="/login">Already Registered? Login</a>
+            <Link to='/login'>Already Registered? Login</Link>  
               </div>
           </div>
         </div>
