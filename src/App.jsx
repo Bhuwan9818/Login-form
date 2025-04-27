@@ -15,7 +15,7 @@ function App() {
   const [user, setUser] = useState(null);
 
   return (
-    <Router>
+    <Router basename="/Login-form">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/signup" element={<Signup />} />
