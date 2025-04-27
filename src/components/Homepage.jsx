@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const HomePage = () => {
   return (
     <div className="flex items-center justify-center h-screen w-full ">
-      <div className="flex p-5 gap-2 justify-end h-screen w-[30%] flex-col bg-gray-100">
+      <div className="flex p-5 gap-2 justify-end h-screen sm:w-[70%] md:w-[50%] lg:w-[40%] xl:w-[30%] flex-col bg-gray-100">
         <h1 className="text-2xl font-[600]">Welcome to PopX</h1>
         <p className="text-gray-500 text-md">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, animi! Perferendis voluptatem sit iure dolorum!

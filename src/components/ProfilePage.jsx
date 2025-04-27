@@ -8,7 +8,7 @@ function Profile({ user }) {
 
   return (
     <div className="flex flex-col items-center min-h-screen bg-white">
-      <div className="gap-2 w-[30%] bg-gray-100 h-screen shadow-md ">
+      <div className="gap-2 sm:w-[70%] md:w-[50%] lg:w-[40%] xl:w-[30%] bg-gray-100 h-screen shadow-md ">
         <div className="bg-white py-5">
           <h1 className="text-2xl px-4">Account Settings</h1>
         </div>

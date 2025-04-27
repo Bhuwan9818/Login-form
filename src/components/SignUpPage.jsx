@@ -25,12 +25,12 @@ function Signup() {
 
   return (
     <div className="flex justify-center min-h-screen bg-white">
-      <div className="flex gap-2 w-[30%] flex-col bg-gray-100">
+      <div className="flex gap-2 sm:w-[70%] md:w-[50%] lg:w-[40%] xl:w-[30%] flex-col bg-gray-100">
         <form
           onSubmit={handleSignup}
           className=" p-8 rounded-md flex flex-col gap-2 w-full max-w-md bg-gray-100"
         >
-          <h2 className="text-3xl w-[60%] font-semibold mb-6">
+          <h2 className="text-2xl sm:text-3xl w-[60%] font-semibold mb-6">
             Create your PopX account
           </h2>
 
